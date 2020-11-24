@@ -13,6 +13,7 @@
 		233B172A254C967000553207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B1728254C967000553207 /* Main.storyboard */; };
 		233B172C254C967200553207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233B172B254C967200553207 /* Assets.xcassets */; };
 		233B172F254C967200553207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233B172D254C967200553207 /* LaunchScreen.storyboard */; };
+		238B15AD256DB57700028931 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238B15AC256DB57700028931 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		233B172B254C967200553207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		233B172E254C967200553207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		233B1730254C967200553207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		238B15AC256DB57700028931 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				233B1722254C967000553207 /* AppDelegate.swift */,
 				233B1724254C967000553207 /* SceneDelegate.swift */,
 				233B1726254C967000553207 /* ViewController.swift */,
+				238B15AC256DB57700028931 /* AboutViewController.swift */,
 				233B1728254C967000553207 /* Main.storyboard */,
 				233B172B254C967200553207 /* Assets.xcassets */,
 				233B172D254C967200553207 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				233B1727254C967000553207 /* ViewController.swift in Sources */,
 				233B1723254C967000553207 /* AppDelegate.swift in Sources */,
+				238B15AD256DB57700028931 /* AboutViewController.swift in Sources */,
 				233B1725254C967000553207 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +293,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6JZ979Q9E;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zehcnasariel.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -308,10 +314,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z6JZ979Q9E;
 				INFOPLIST_FILE = BullsEye/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				PRODUCT_BUNDLE_IDENTIFIER = zehcnasariel.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
